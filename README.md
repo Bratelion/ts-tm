@@ -28,6 +28,7 @@ Have fun building your task manager PWA with Next.js!
 3. Soft Grey: `#E2E2E2` - This can be used for backgrounds or secondary elements.
 4. Dark Blue: `#17202A` - This can be used for text and important elements.
 5. Light Yellow: `#FDFD96` - This can be used for notifications or important highlights.
+6. Black: `#000000` - This can be used for text color on highlighted elements.
 
 #### For `dark mode`, we'll use darker shades of the same colors to maintain consistency:
 
@@ -36,3 +37,4 @@ Have fun building your task manager PWA with Next.js!
 3. Dark Grey: `#424949` - This can be used for backgrounds or secondary elements.
 4. Soft Blue: `#AEDFF7` - This can be used for text and important elements.
 5. Dark Yellow: `#F1C40F` - This can be used for notifications or important highlights.
+6. Black: `#000000` - This can be used for text color on highlighted elements.
