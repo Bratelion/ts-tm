@@ -1,38 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Project Idea: Task Manager
 
-## Getting Started
+### Description
 
-First, run the development server:
+Create a task manager application that allows users to create, update, and manage their tasks. The application will have the following features:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. **Task creation**: Users can add new tasks with a title, description, and due date.
+2. **Task list**: Display a list of all tasks, sorted by their due dates. Include options to filter tasks based on their completion status (completed/incomplete).
+3. **Task details**: Users can click on a task to view its details, including the title, description, due date, and completion status.
+4. **Task update**: Allow users to update the details of a task, such as changing the title, description, due date, or marking it as completed.
+5. **Task deletion**: Provide an option to delete a task from the list.
+6. **Offline functionality**: Implement offline support using Next.js and Service Worker API, so users can access and interact with their tasks even when they are not connected to the internet.
+7. **Push notifications**: Utilize the Push API to send push notifications to users for upcoming or overdue tasks.
+8. **Responsive design**: Ensure the application is responsive and works well on different devices, including mobile phones and tablets.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+By using Next.js, you can take advantage of its server-side rendering capabilities for initial page load performance, and then progressively enhance the app with PWA features such as offline support and push notifications.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+Remember to follow best practices for building PWAs, such as using a service worker, caching assets, and providing a manifest file for the app's installation on the user's device.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+Have fun building your task manager PWA with Next.js!
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+### Color palette
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+#### Here's a proposed color palette for `light mode`:
 
-## Learn More
+1. Soft Blue: `#AEDFF7` - This can be used as the primary color, it's calming and promotes focus.
+2. Light Green: `#C1E1C5` - This can be used for accents and to highlight important tasks.
+3. Soft Grey: `#E2E2E2` - This can be used for backgrounds or secondary elements.
+4. Dark Blue: `#17202A` - This can be used for text and important elements.
+5. Light Yellow: `#FDFD96` - This can be used for notifications or important highlights.
 
-To learn more about Next.js, take a look at the following resources:
+#### For `dark mode`, we'll use darker shades of the same colors to maintain consistency:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+1. Dark Blue: `#17202A` - This can be used as the primary color.
+2. Dark Green: `#196F3D` - This can be used for accents and to highlight important tasks.
+3. Dark Grey: `#424949` - This can be used for backgrounds or secondary elements.
+4. Soft Blue: `#AEDFF7` - This can be used for text and important elements.
+5. Dark Yellow: `#F1C40F` - This can be used for notifications or important highlights.
